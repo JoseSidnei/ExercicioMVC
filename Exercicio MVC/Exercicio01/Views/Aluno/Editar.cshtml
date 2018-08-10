@@ -1,0 +1,135 @@
+﻿
+@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h1 class="bg-danger text-center">Editar</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form action="/Aluno/Update" method="post">
+            <input type="hidden" name="Aluno.Id" value="@ViewBag.Aluno.Id" />
+
+            <div class="row">
+                <div class="col-md-8">
+
+                    <div class="form-group">
+                        <label for="campo-nome">
+                            Nome Completo <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Nome" id="campo-nome" class="form-control" value="@ViewBag.Aluno.Nome" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+
+                    <div class="form-group">
+                        <label for="campo-matricula">
+                            Número Matrícula
+                        </label>
+                        <input type="text" name="Aluno.CodigoMatricula" id="campo-matricula" class="form-control" value="@ViewBag.Aluno.CodigoMatricula" readonly />
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-nota-1">
+                            Nota 1 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Nota1" id="campo-nota-1" class="form-control" value="@ViewBag.Aluno.Nota1" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-nota-2">
+                            Nota 2 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Nota2" id="campo-nota-2" class="form-control" value="@ViewBag.Aluno.Nota2" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-nota-3">
+                            Nota 3 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Nota2" id="campo-nota-3" class="form-control" value="@ViewBag.Aluno.Nota3" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-faltas">
+                            Faltas <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Faltas" id="campo-faltas" class="form-control" value="@ViewBag.Aluno.Faltas" />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-media">
+                            Média
+                        </label>
+                        <input type="text" name="Aluno.Media" id="campo-media" class="form-control" value="@ViewBag.Aluno.Media" readonly />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-frequencia">
+                            Frequência
+                        </label>
+                        <input type="text" name="Aluno.Frequencia" id="campo-frequencia" class="form-control" value="@ViewBag.Aluno.Frequencia%" readonly />
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="form-grou">
+                        <label for="campo-data-nascimento">
+                            Data de Nascimento <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="date" name="Aluno.DataNascimento" id="campo-data-nascimento" class="form-control" />
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-warning float-right">
+                        <i class="fa fa-save"></i> Salvar
+                    </button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>

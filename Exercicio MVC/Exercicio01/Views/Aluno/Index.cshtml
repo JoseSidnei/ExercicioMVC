@@ -1,0 +1,91 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h1 class="bg-danger text-center">TESTE</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-11">
+        @Html.ActionLink(" Novo Aluno", "Cadastro", "Aluno", new { @class = "btn btn-outline-secondary fa fa-plus float-right mr-2 mb-2 mt-2 h-75 text-center" })
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-10 offset-md-1">
+        <table class="table table.hover mt-2">
+            <thead>
+                <tr>
+                    <th>Código</th>
+                    <th>Matrícula</th>
+                    <th>Nome</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Média</th>
+                    <th>Frequência</th>
+                    <th>Status</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (Exercicio01.Models.Aluno aluno in @ViewBag.Alunos)
+                {
+                    <tr>
+                        <td>@aluno.Id</td>
+                        <td>@aluno.CodigoMatricula</td>
+                        <td>@aluno.Nome</td>
+                        <td>@aluno.Nota1</td>
+                        <td>@aluno.Nota2</td>
+                        <td>@aluno.Nota3</td>
+                        <td>@aluno.Media</td>
+                        <td>@aluno.Frequencia%</td>
+                        <td>
+                            @if ((Convert.ToDouble(aluno.Media) < 5) || (aluno.Frequencia < 65))
+                            {
+                                <span>Reprovado</span>
+                            }
+                            else if ((Convert.ToDouble(aluno.Media) >= 5) && (Convert.ToDouble(aluno.Media) < 7))
+                            {
+                                <span>Recuperação</span>
+                            }
+                            else if (Convert.ToDouble(aluno.Media) >= 7)
+                            {
+                                <span>Aprovado</span>
+                            }
+                        </td>
+                        <td>
+                            <a href="/Aluno/Editar?id=@aluno.Id" class="btn btn-outline-info">
+                                <i class="fa fa-edit"></i> Editar
+                            </a>
+                            <a href="/Aluno/Excluir?id=@aluno.Id" class="btn btn-outline-danger">
+                                <i class="fa fa-trash"></i> Excluir
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <th>Código</th>
+                    <th>Matrícula</th>
+                    <th>Nome</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Nota 3</th>
+                    <th>Média</th>
+                    <th>Frequência</th>
+                    <th>Status</th>
+                    <th>Ação</th>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>

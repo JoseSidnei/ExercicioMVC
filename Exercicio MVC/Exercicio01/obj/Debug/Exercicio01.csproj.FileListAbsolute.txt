@@ -1,0 +1,36 @@
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.dll.config
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.pdb
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Helpers.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Mvc.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Razor.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Deployment.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Razor.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Razor.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Deployment.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Razor.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Helpers.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Mvc.xml
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.csprojResolveAssemblyReference.cache
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.dll
+C:\Users\104958\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.pdb
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.dll.config
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\Exercicio01.pdb
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Helpers.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Mvc.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Razor.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Razor.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Razor.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Webpages.Razor.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Helpers.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\bin\System.Web.Mvc.xml
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.csprojResolveAssemblyReference.cache
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.dll
+C:\Users\Victor Hugo\Documents\GitHub\exercicios-mvc\Exercicio01\Exercicio01\Exercicio01\obj\Debug\Exercicio01.pdb

@@ -1,0 +1,122 @@
+﻿
+@{
+    ViewBag.Title = "Cadastro";
+    Layout = "~/Views/Shared/Master.cshtml";
+}
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <h1 class="bg-danger text-center">Cadastro</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 offset-md-3">
+        <form action="/Aluno/Store" method="post">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="form-group">
+                        <label for="campo-nome">
+                            Nome Completo <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="text" name="Aluno.Nome" id="campo-nome" class="form-control" />
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="campo-data-nascimento">
+                            Data de Nascimento <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input type="date" name="Aluno.DataNascimento" id="campo-data-nascimento" class="form-control" onfocusout="gerarNumeroMatricula()" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="campo-nota-1">
+                            Nota 1 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input id="campo-nota-1" type="text" name="Aluno.Nota1" data-mask="00,00" class="form-control" onfocusout="media()" placeholder="0,00" onblur="liberar()"/>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="campo-nota-2">
+                            Nota 2 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input id="campo-nota-2" type="text" name="Aluno.Nota2" data-mask="00,00" class="form-control" onfocusout="media()" placeholder="0,00" disabled="disabled" onblur="liberar()"/>
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="campo-nota-3">
+                            Nota 3 <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input id="campo-nota-3" type="text" name="Aluno.Nota3" data-mask="00,00" class="form-control" onfocusout="media()" placeholder="0,00" disabled="disabled" />
+                    </div>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="campo-faltas">
+                            Faltas <span class="text-danger font-weight-bold">*</span>
+                        </label>
+                        <input id="campo-faltas" type="number" name="Aluno.Faltas" class="form-control" max="200" min="0" onfocusout="contaFrequencia()" value="0" />
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <button type="submit" class="btn btn-success float-right">
+                        <i class="fa fa-save"></i> Cadastrar
+                    </button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-3">
+
+                    <div class="form-group">
+                        <label for="campo-codigo-matricula">
+                            Codigo Matrícula
+                        </label>
+                        <input type="text" id="campo-codigo-matricula" class="form-control" name="Aluno.CodigoMatricula" readonly />
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="form-group">
+                        <label for="campo-frequencia">
+                            Frequência
+                        </label>
+                        <input type="text" id="campo-frequencia" class="form-control" name="Aluno.Frequencia" readonly />
+                    </div>
+
+                </div>
+
+                <div class="col-md-2">
+
+                    <div class="form-group">
+                        <label for="campo-media">
+                            Média
+                        </label>
+                        <input type="text" id="campo-media" class="form-control" name="Aluno.Media" readonly />
+                    </div>
+
+                </div>
+
+            </div>
+
+        </form>
+    </div>
+</div>
+
