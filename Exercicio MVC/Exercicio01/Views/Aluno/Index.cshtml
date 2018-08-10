@@ -6,20 +6,20 @@
 
 <div class="row">
     <div class="col-md-6 offset-md-3">
-        <h1 class="bg-danger text-center">TESTE</h1>
+        <h1 class="text-primary text-center">Lista de Alunos</h1>
     </div>
 </div>
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-md-11">
-        @Html.ActionLink(" Novo Aluno", "Cadastro", "Aluno", new { @class = "btn btn-outline-secondary fa fa-plus float-right mr-2 mb-2 mt-2 h-75 text-center" })
+        @Html.ActionLink(" Adicionar Aluno", "Cadastro", "Aluno", new { @class = "btn btn-success fa fa-plus float-right mr-2 mb-2 mt-2 h-75 text-center" })
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-10 offset-md-1">
-        <table class="table table.hover mt-2">
-            <thead>
+        <table class="table table-striped table-bordered" >
+            <thead class="thead-dark">
                 <tr>
                     <th>Código</th>
                     <th>Matrícula</th>
@@ -47,9 +47,13 @@
                         <td>@aluno.Media</td>
                         <td>@aluno.Frequencia%</td>
                         <td>
-                            @if ((Convert.ToDouble(aluno.Media) < 5) || (aluno.Frequencia < 65))
+                            @if (Convert.ToDouble(aluno.Media) < 5)
                             {
                                 <span>Reprovado</span>
+                            }
+                            else if (Convert.ToDouble(aluno.Frequencia) < 65)
+                            {
+                                <span>Reprovado por Faltas</span>
                             }
                             else if ((Convert.ToDouble(aluno.Media) >= 5) && (Convert.ToDouble(aluno.Media) < 7))
                             {
@@ -72,7 +76,7 @@
                 }
             </tbody>
 
-            <tfoot>
+            <tfoot class="thead-dark">
                 <tr>
                     <th>Código</th>
                     <th>Matrícula</th>

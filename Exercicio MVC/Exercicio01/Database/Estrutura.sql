@@ -11,8 +11,8 @@ CREATE TABLE alunos(
 );
 
 INSERT INTO alunos(nome, codigo_matricula, nota_1, nota_2, nota_3, frequencia, faltas) VALUES
-('Lorem Ipsum', 200109111, 10, 10, 10, 64, 5),
-('Contrary', 200004281, 6, 6, 6, 100, 0),
-('There are', 200004281, 6, 6, 6, 62, 0),
-('Randomised', 200004281, 8, 7, 10, 98, 0),
-('Therefore', 200004101, 5, 5, 3, 91, 150);
+('Morramad', 986532147, 10, 10, 9, 74, 5),
+('Vendedor de algodão doce', 745896541, 8, 10, 4, 100, 0),
+('Rubinho', 145879632, 7, 8, 9, 72, 0),
+('Alabah', 458975632, 6, 5, 8, 90, 0),
+('Transformation', 147896325, 6, 7, 4, 25, 50);

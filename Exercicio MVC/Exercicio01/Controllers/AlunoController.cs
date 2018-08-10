@@ -52,7 +52,7 @@ namespace Exercicio01.Controllers
         public ActionResult Update(Aluno aluno)
         {
             bool alterado = new AlunoRepository().Alterar(aluno);
-            return null;
+            return RedirectToAction("Index");
         }
     }
 }

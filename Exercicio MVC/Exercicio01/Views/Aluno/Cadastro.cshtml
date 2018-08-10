@@ -4,13 +4,13 @@
     Layout = "~/Views/Shared/Master.cshtml";
 }
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-md-6 offset-md-3">
-        <h1 class="bg-danger text-center">Cadastro</h1>
+        <h1 class="text-primary text-center ">Cadastro Aluno</h1>
     </div>
 </div>
 
-<div class="row">
+<div class="rowm mt-5">
     <div class="col-md-6 offset-md-3">
         <form action="/Aluno/Store" method="post">
             <div class="row">
@@ -19,7 +19,9 @@
                         <label for="campo-nome">
                             Nome Completo <span class="text-danger font-weight-bold">*</span>
                         </label>
-                        <input type="text" name="Aluno.Nome" id="campo-nome" class="form-control" />
+                        <input type="text" name="Aluno.Nome" id="campo-nome" class="form-control" required="required" 
+                               onfocusout="validarCampoNome()" />
+                        
                     </div>
                 </div>
 
